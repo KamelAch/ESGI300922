@@ -1,0 +1,28 @@
+1)  - git clone https://github.com/github/choosealicense.com
+
+    - git branch
+      On a uniquement la branche gh-pages
+
+
+2)  - La dernière pull request est la #1028
+
+    - Elle contient deux commit.
+
+    - Le numéro est #549, elle contient 2 commit et l'auteur est @mlinksva
+
+
+3)  - git checkout HEAD~1 index.html
+
+    - auto-complete
+
+    - git show b30306e502b99aabab256a5d2f68e8d50ba5072a --name-only
+
+    - git checkout b30306e502b99aabab256a5d2f68e8d50ba5072a -- _plugins/auto-complete.rb
+
+
+4)  - git add kamel-achouitar-1.0.txt
+      git commit -m "ma licence"
+
+    - git status
+
+    - git push -u origin gh-pages
